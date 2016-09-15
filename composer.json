@@ -1,0 +1,24 @@
+{
+  "name": "bytic/services-google-vision",
+  "description": "PHP library for the various RESTful based Google Cloud Vision API(s)",
+  "authors": [
+    {
+      "name": "Gabriel Solomon",
+      "email": "hello@gabrielsolomon.ro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ByTIC\\Services\\Google\\Vision\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "6.2.1",
+    "intervention/image": "2.3.8"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.2.*",
+    "codeception/mockery-module": "0.2.*"
+  }
+}
